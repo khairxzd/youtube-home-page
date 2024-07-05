@@ -6,13 +6,13 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -57,3 +57,5 @@ nav {
   display: flex;
   column-gap: 24px;
 }
+
+.
