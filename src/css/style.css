@@ -15,9 +15,12 @@ a {
   text-decoration: none;
 }
 
+.container {
+}
+
 nav {
-  display: flex;
   padding: 15px 24px 0px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -58,4 +61,21 @@ nav {
   column-gap: 24px;
 }
 
-.
+.content {
+  margin-top: 24px;
+}
+
+.content-side-bar-item {
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+  width: 240px;
+  height: 40px;
+  cursor: pointer;
+  padding-left: ;
+}
+.line {
+  width: 240px;
+  height: 1px;
+  background-color: #e5e5e5;
+}
